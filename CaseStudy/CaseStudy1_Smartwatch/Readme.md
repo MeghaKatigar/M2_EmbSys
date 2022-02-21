@@ -21,4 +21,12 @@
  - Temperature Sensor
    - It helps measure your body or skin temperature to keep a constant check on your health.  
 
+## High Level Requirement
+- Humidity Sensor Value
+- Temperature Sensor Value
+   
+## Low Level Requirement
+- Push Buttons
+- Displaying the value on LCD
+
 
