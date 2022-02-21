@@ -2,7 +2,7 @@
  A smartwatch requires not only a clock and connectivity, it also needs to be able to solve common human problems. They are more sophisticated and have many features which make it
  easier to carry everywhere. Smart Watches need charging every one or two days. These are designed to be used as fitness trackers. Through the smart watches person can receive a call or put a message which connected to mobile via bluetooth.
  
- ## Peripheral Used in Smart watch:
+ ## Component Used in Smart watch:
  - Controller
  - Push Buttons
  - Voltage regulator
@@ -20,3 +20,5 @@
    - LCD or Liquid Crystal Display is the most common type of display used in smartwatches.
  - Temperature Sensor
    - It helps measure your body or skin temperature to keep a constant check on your health.  
+
+
