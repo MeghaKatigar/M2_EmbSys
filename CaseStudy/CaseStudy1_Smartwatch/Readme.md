@@ -42,8 +42,9 @@ Read more at:
 http://timesofindia.indiatimes.com/articleshow/78033264.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
 
 ## V model for Hardware design
+![](https://user-images.githubusercontent.com/98883965/155137194-93996182-8d63-4f71-a4aa-4d8fb9811645.png)
 
-
+[Credit : medium.com]
 
 
 ## High Level Requirement
