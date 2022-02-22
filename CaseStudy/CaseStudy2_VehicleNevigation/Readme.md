@@ -6,6 +6,11 @@ position is determined using GSM ECU. Compass Sensor is used for obtaining absol
 Web mapping services, such as Google Maps, street maps etc. The main block of the system is Micro Controller ( i.e ARM LPC2148), which controlls every small parts
 of the system. As the vehicle moves, maps are sent on the display one after the another Continuously.
 
+# Block Diagram
+
+![Vehical_Nevigation](https://user-images.githubusercontent.com/98883965/155134145-1b0440c2-ac4c-486b-a433-30ee86d441de.JPG)
+
+
 ## Peripheral used in Block Diagram:
 - Micro Controller
 - GPS ECU
