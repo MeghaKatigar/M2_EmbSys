@@ -5,7 +5,8 @@
  
  
  # Block Diagram
- 
+ ![Smart_Watch](https://user-images.githubusercontent.com/98883965/155131635-fc62d88d-d276-4d5d-95b8-7b3446d88591.JPG)
+
  
  ## Component Used in Smart watch:
  - Controller
@@ -27,11 +28,15 @@
    - It helps measure your body or skin temperature to keep a constant check on your health.  
 
 ## High Level Requirement
-- Humidity Sensor Value
-- Temperature Sensor Value
+- To measure the water level present in surrounding air 
+- To measure the body Temperature
+- To measure how movement changes over time
+- RAM to perfor the multi tasking
    
 ## Low Level Requirement
 - Push Buttons
+- Value of Humidity Sensor
+- Value of Temperature Sensor
 - Displaying the value on LCD
 
 
