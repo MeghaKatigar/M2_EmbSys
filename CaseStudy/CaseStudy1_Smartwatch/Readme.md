@@ -8,7 +8,7 @@
  ![Smart_Watch](https://user-images.githubusercontent.com/98883965/155131635-fc62d88d-d276-4d5d-95b8-7b3446d88591.JPG)
 
  
- ## Component Used in Smart watch:
+ ## Component required to design the Smart watch:
  - Controller
  - Push Buttons
  - Voltage regulator
