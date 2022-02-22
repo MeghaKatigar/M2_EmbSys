@@ -27,6 +27,25 @@
  - Temperature Sensor
    - It helps measure your body or skin temperature to keep a constant check on your health.  
 
+Latest Smart Watchs in the market:
+In todays market, a smart watch has many sensors inside it which performs the multiple operations, the sensor which can be seen inside the smart watchs are listed 
+below :
+- Gesture sensors detect wrist motion
+- ECG sensor
+- Gyroscope
+- UV sensor measure exposure to harmful sunlight
+- Electrodermal activity sensor
+- Skin temperature sensor etc.
+
+
+Read more at:
+http://timesofindia.indiatimes.com/articleshow/78033264.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
+
+## V model for Hardware design
+
+
+
+
 ## High Level Requirement
 - To measure the water level present in surrounding air 
 - To measure the body Temperature
