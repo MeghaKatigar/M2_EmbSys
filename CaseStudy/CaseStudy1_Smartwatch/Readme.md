@@ -32,6 +32,7 @@
 - To measure the body Temperature
 - To measure how movement changes over time
 - RAM to perfor the multi tasking
+- Bluetooth to connect it via Mobile
    
 ## Low Level Requirement
 - Push Buttons
