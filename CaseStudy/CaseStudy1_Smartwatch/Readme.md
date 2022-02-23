@@ -1,7 +1,37 @@
 # Smart Watch
+## Table of Contents 
+- Description 
+- Table of Requirements 
+- Block Diagram 
+  - Components Required for design
+- V-Model 
+- Application 
+
+
+## Description 
  A smartwatch requires not only a clock and connectivity, it also needs to be able to solve common human problems. They are more sophisticated and have many features which make it
  easier to carry everywhere. Smart Watches need charging every one or two days. These are designed to be used as fitness trackers. Through the smart watches person can receive a call or put a message which connected to mobile via bluetooth.
  
+ # Table of Requirements 
+ 
+ ## High Level Requirement
+ | ID| Description |
+ |---|---|
+|HLR_1.0| It shall measure the water level present in surrounding air |
+|HLR_1.1| It shall measure the body Temperature|
+|HLR_1.2| It shall measure how movement changes over time|
+|HLR_1.3| RAM to perfor the multi tasking|
+|HLR_1.4| Bluetooth to connect it via Mobile|
+   
+## Low Level Requirement
+
+| ID | Description |
+|---|---|
+|LLR_1.0|Push Buttons
+|LLR_1.1| Value of Humidity Sensor|
+|LLR_1.2| Value of Temperature Sensor|
+|LLR_1.3| Displaying the value on LCD|
+
  
  
  # Block Diagram
@@ -27,7 +57,7 @@
  - Temperature Sensor
    - It helps measure your body or skin temperature to keep a constant check on your health.  
 
-Latest Smart Watchs in the market:
+##Latest Smart Watchs in the market:
 In todays market, a smart watch has many sensors inside it which performs the multiple operations, the sensor which can be seen inside the smart watchs are listed 
 below :
 - Gesture sensors detect wrist motion
@@ -46,18 +76,8 @@ http://timesofindia.indiatimes.com/articleshow/78033264.cms?utm_source=contentof
 
 [Credit : medium.com]
 
-
-## High Level Requirement
-- To measure the water level present in surrounding air 
-- To measure the body Temperature
-- To measure how movement changes over time
-- RAM to perfor the multi tasking
-- Bluetooth to connect it via Mobile
-   
-## Low Level Requirement
-- Push Buttons
-- Value of Humidity Sensor
-- Value of Temperature Sensor
-- Displaying the value on LCD
+## Application 
+- Check the weather easily.
+- Checking the body temperature.
 
 
