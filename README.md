@@ -1,4 +1,4 @@
-# M2_EmbSys
+# Folder Structure 
 
 ## Case Study Folder
 | Title | Description  |
