@@ -9,9 +9,14 @@
 - Block Diagram
 - Flow Chart
 - Specifications of Components 
-  - Microcontroller 
+  - ATmega328p Microcontroller 
   - Sensors 
   - Actuator
+  - Communication modules
+  - LCD
+- Application 
+- Future Scope
+  
 # Abstract 
 The significance of a fire alarm system in maintaining and monitoring the safety of all types of surroundings and circumstances is critical. However, many existing fire alarm systems are well-known for their utility, yet they can be produced at a high cost. As a result, it is out of reach for low-income individuals. The major goal of this project is to create a low-cost fire control system. The detecting system, monitoring system, and appliance system are the three primary systems in the project. The detecting system functions as both a fire and a smoke detector.
 
@@ -52,31 +57,58 @@ The significance of a fire alarm system in maintaining and monitoring the safety
 ![Block_Diagram_lpg](https://user-images.githubusercontent.com/98883965/155764508-f4e7112c-62b1-4324-a460-7ace4ad374f9.JPG)
 
 ## Component required 
+
+###  ATmega328P Microcontroller
+This microcontroller is a low-power CMOS (Complementary Metal Oxide Semiconductor) 8-bitmicrocontroller based on the AVR enhanced RISC (Reduced Instruction Set Computer) architecture.The powerful execution of instructions in a single clock cycle leads to the achievement of 1 MIPS perMHz throughputs allowing the designer to optimize power consumption versus processing speed.
+
 ### Sensors
-1) Temperature Sensor 
+1) **Temperature Sensor**
 
 The LM35 series are precision integrated-circuit temperature sensors, whose output voltage islinearly proportional to the Celsius (Centigrade) temperature. The LM35 thus has an advantage overlinear temperature sensors calibrated in° Kelvin, as the user is not required to subtract a large constantvoltage from its output to obtain convenient Centigrade scaling.
 
-2) Smoke Sensor
+2) **Smoke Sensor**
 
 The MQ-2 smoke sensor reports smoke by the voltage level that it outputs. The more smokethere is, the greater the voltage that it outputs. Conversely, the less smoke that it is exposed to, the lessvoltage it outputs. The MQ-2 also has a built-in potentiometer to adjust the sensitivity to smoke. Byadjusting the potentiometer, you can change how sensitive it is to smoke, so it's a form of calibrating itto adjust how much voltage it will put out in relation to the smoke it is exposed to.
 
 ### Actuators
 
-1) DC Motor
+1) **DC Motor**
 
 A DC motor is a mechanically commutated electric motor powered from direct current (DC).The stator is stationary in space by definition and therefore the current in the rotor is switched by thecommentator to also be stationary in space. This is how the relative angle between the stator and rotormagnetic flux is maintained near 90 degrees, which generates the maximum torque.
 
-2) Servo motor
+2) **Servo motor**
 
 Inside a servo motor, there are a small DC motor, potentiometer, and a control circuit. Themotor is attached by gears to the control wheel. The motor rotates, the potentiometer's resistancechanges, so the control circuit can precisely regulate how much movement there is and in whichdirection. The servo motor in this project operates on 6V.
 
+3) **Buzzer**
+
+For alarm purposes a lot of electric bells, alarms and buzzers are available in the market that hasgot different prices and uses. The buzzer being used in this project is a 5-12 V buzzer and has gotenough alarm sound to be used in a fire alarm system. Louder buzzer would have been even better butthen their operating voltages are high as we had a supply of maximum up to 12V available with us onthe board
+
 ### Communication modules
-1) GPS Module
+1) **GPS Module**
 
 GPS or Global Positioning System is a satellite navigation system that furnishes location and timeinformation in all climate conditions to the user. GPS is used for navigation in planes, ships, cars andtrucks also. The system gives critical abilities to military and civilian users around the globe.
+
+2) **GSM Module**
+
+The acronym GSM is presently understood to mean Global System for Mobile Communications.We chose the SIM 900A because that our county Ethiopia support the SIM 900 2G network. It requires SIM (Subscriber Identity Module) card just like mobile phones to activate communication with thenetwork. Also they have IMEI
+ (International Mobile Equipment Identity) number similar to mobilephones for their identification.
+### LCD
+
+A Liquid Crystal Display commonly abbreviated as LCD is basically a display unit built using *Liquid Crystal technology*. When we build real life/real world electronics based projects, we need amedium/device to display output values and messages. Liquid Crystal Displays comes in differentsize specifications. Out of all available LCD modules in market, the most commonly used one is 16×2LCD Module which can display 32 ASCII characters in 2 lines (16 characters in 1 line).
+
 
 
 # Flowchart
 ![FLOWCHART_LPG](https://user-images.githubusercontent.com/98883965/155768690-9c9f92e6-e4d6-422a-a672-01d897f77295.JPG)
+
+# Application 
+1) Home
+2) Factories
+3) Industries
+4) Apartments 
+5) Malls
+
+# Future Scope
+The project can be extended by increasing the number of sensors used along with anincrease in the number of installation places. The remote management of electronic devices canalso be extended with the use of different real electronic devices.
 
