@@ -13,5 +13,17 @@ The significance of a fire alarm system in maintaining and monitoring the safety
 
 
 # Requirements 
+## High Level Requirements 
+| ID|Description |Result |
+|---|---|---|
+|HLR_1.0|| To be implemented |
+|HLR_1.1||To be implemented |
+|HLR_1.2|| To be implemented |
+## Low Level Requirements 
+|ID|Description | Result |
+|---|---|---|
 # Objectives
-- 
+- To indicate the location where the fire is occurred.
+- To prevent fire and smoke.
+- To sound the alarm if fire occurs.
+- To run the emergency EXIT servo motor and control the fire by supplying water to the remotearea by motor pump.
