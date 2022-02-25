@@ -112,5 +112,5 @@ A Liquid Crystal Display commonly abbreviated as LCD is basically a display unit
 5) Malls
 
 # Future Scope
-The project can be extended by increasing the number of sensors used along with anincrease in the number of installation places. The remote management of electronic devices canalso be extended with the use of different real electronic devices.
+The project can be extended by increasing the number of sensors used along with an increase in the number of installation places. The remote management of electronic devices canalso be extended with the use of different real electronic devices. Using DC motor control automatically turns off the knob of te cylinder. So continuously monitoring the level of te LPG present in the cylinder using weight sensor and automatically books the cylinder using a GSM module.
 
