@@ -1,4 +1,5 @@
-# LPG Gas Leakage Monitoring SySystem
+# LPG Gas Leakage Monitoring System
+A system 
 # Table of Contents 
 # Abstract 
 The significance of a fire alarm system in maintaining and monitoring the safety of all types of surroundings and circumstances is critical. However, many existing fire alarm systems are well-known for their utility, yet they can be produced at a high cost. As a result, it is out of reach for low-income individuals. The major goal of this project is to create a low-cost fire control system. The detecting system, monitoring system, and appliance system are the three primary systems in the project. The detecting system functions as both a fire and a smoke detector.
@@ -14,16 +15,26 @@ The significance of a fire alarm system in maintaining and monitoring the safety
 
 # Requirements 
 ## High Level Requirements 
-| ID|Description |Result |
-|---|---|---|
-|HLR_1.0|| To be implemented |
-|HLR_1.1||To be implemented |
-|HLR_1.2|| To be implemented |
+| ID| Title |Description |Result |
+|---|---|---|---|
+|HLR_1.0|Gas Sensor |It shall sense the gas leakage| To be done |
+|HLR_1.1|LCD| It shall display the message |To be done |
+|HLR_1.2|Temperature Sensor |It shall measure the room temperature | To be done |
+|HLR_1.3|Servo motor|It shall spray water on fire| To be done|
+|HLR_1.4|GSM Module|It shall send a msg to fire extinguisher when the fire takes place |To be done|
+|HLR_1.5|Buzzer|It shall notify the neighbors that the fire or gas leakage taken place|To be done|
+
 ## Low Level Requirements 
-|ID|Description | Result |
-|---|---|---|
+|ID| Title |Description | Result |
+|---|---|---|---|
+|LLR_1.0|Gas Leakage|Home appliances that generates heat or gas such as stove, water heater.| To be done|
+|LLR_1.1|Fire Detetion| This can be caused by gas leakage in room. |To be done|
+
 # Objectives
 - To indicate the location where the fire is occurred.
 - To prevent fire and smoke.
 - To sound the alarm if fire occurs.
 - To run the emergency EXIT servo motor and control the fire by supplying water to the remotearea by motor pump.
+
+# Block Diagram 
+
