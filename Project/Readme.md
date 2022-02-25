@@ -7,6 +7,7 @@
   - High Level Requirements 
   - Low Level Requirements 
 - Block Diagram
+- Flow Chart
 - Specifications of Components 
   - Microcontroller 
   - Sensors 
@@ -49,6 +50,32 @@ The significance of a fire alarm system in maintaining and monitoring the safety
 
 # Block Diagram 
 ![Block_Diagram_lpg](https://user-images.githubusercontent.com/98883965/155764508-f4e7112c-62b1-4324-a460-7ace4ad374f9.JPG)
+
+## Component required 
+### Sensors
+1) Temperature Sensor 
+
+The LM35 series are precision integrated-circuit temperature sensors, whose output voltage islinearly proportional to the Celsius (Centigrade) temperature. The LM35 thus has an advantage overlinear temperature sensors calibrated in° Kelvin, as the user is not required to subtract a large constantvoltage from its output to obtain convenient Centigrade scaling.
+
+2) Smoke Sensor
+
+The MQ-2 smoke sensor reports smoke by the voltage level that it outputs. The more smokethere is, the greater the voltage that it outputs. Conversely, the less smoke that it is exposed to, the lessvoltage it outputs. The MQ-2 also has a built-in potentiometer to adjust the sensitivity to smoke. Byadjusting the potentiometer, you can change how sensitive it is to smoke, so it's a form of calibrating itto adjust how much voltage it will put out in relation to the smoke it is exposed to.
+
+### Actuators
+
+1) DC Motor
+
+A DC motor is a mechanically commutated electric motor powered from direct current (DC).The stator is stationary in space by definition and therefore the current in the rotor is switched by thecommentator to also be stationary in space. This is how the relative angle between the stator and rotormagnetic flux is maintained near 90 degrees, which generates the maximum torque.
+
+2) Servo motor
+
+Inside a servo motor, there are a small DC motor, potentiometer, and a control circuit. Themotor is attached by gears to the control wheel. The motor rotates, the potentiometer's resistancechanges, so the control circuit can precisely regulate how much movement there is and in whichdirection. The servo motor in this project operates on 6V.
+
+### Communication modules
+1) GPS Module
+
+GPS or Global Positioning System is a satellite navigation system that furnishes location and timeinformation in all climate conditions to the user. GPS is used for navigation in planes, ships, cars andtrucks also. The system gives critical abilities to military and civilian users around the globe.
+
 
 # Flowchart
 ![FLOWCHART_LPG](https://user-images.githubusercontent.com/98883965/155768690-9c9f92e6-e4d6-422a-a672-01d897f77295.JPG)
