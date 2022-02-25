@@ -48,4 +48,5 @@ The significance of a fire alarm system in maintaining and monitoring the safety
 
 
 # Block Diagram 
+![Block_Diagram_lpg](https://user-images.githubusercontent.com/98883965/155764508-f4e7112c-62b1-4324-a460-7ace4ad374f9.JPG)
 
