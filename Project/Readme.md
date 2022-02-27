@@ -6,8 +6,9 @@
 - Requirements 
   - High Level Requirements 
   - Low Level Requirements 
-- Component Required 
 - Block Diagram
+- Component Required 
+- Behavioral diagram 
 - Flow Chart
 - Specifications of Components 
   - ATmega328p Microcontroller 
@@ -52,6 +53,12 @@ The significance of a fire alarm system in maintaining and monitoring the safety
 |LLR_1.0|Gas Leakage|Home appliances that generates heat or gas such as stove, water heater.| To be done|
 |LLR_1.1|Fire Detetion| This can be caused by gas leakage in room. |To be done|
 
+
+
+
+# Block Diagram 
+![Block_Diagram_lpg](https://user-images.githubusercontent.com/98883965/155764508-f4e7112c-62b1-4324-a460-7ace4ad374f9.JPG)
+
 # Component required 
 
 ###  ATmega328P Microcontroller
@@ -92,11 +99,6 @@ The acronym GSM is presently understood to mean Global System for Mobile Communi
 ### LCD
 
 A Liquid Crystal Display commonly abbreviated as LCD is basically a display unit built using *Liquid Crystal technology*. When we build real life/real world electronics based projects, we need amedium/device to display output values and messages. Liquid Crystal Displays comes in differentsize specifications. Out of all available LCD modules in market, the most commonly used one is 16×2LCD Module which can display 32 ASCII characters in 2 lines (16 characters in 1 line).
-
-
-
-# Block Diagram 
-![Block_Diagram_lpg](https://user-images.githubusercontent.com/98883965/155764508-f4e7112c-62b1-4324-a460-7ace4ad374f9.JPG)
 
 ## Behavioral Diagram
 ![Behavioral_lpg](https://user-images.githubusercontent.com/98883965/155871930-e664a5d7-3683-4285-bc99-69ada6cdc771.jpg)
