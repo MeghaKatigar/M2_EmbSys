@@ -99,6 +99,7 @@ A Liquid Crystal Display commonly abbreviated as LCD is basically a display unit
 ![Block_Diagram_lpg](https://user-images.githubusercontent.com/98883965/155764508-f4e7112c-62b1-4324-a460-7ace4ad374f9.JPG)
 
 ## Behavioral Diagram
+![Behavioral_lpg](https://user-images.githubusercontent.com/98883965/155871930-e664a5d7-3683-4285-bc99-69ada6cdc771.jpg)
 
 
 
