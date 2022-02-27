@@ -101,7 +101,8 @@ The acronym GSM is presently understood to mean Global System for Mobile Communi
 A Liquid Crystal Display commonly abbreviated as LCD is basically a display unit built using *Liquid Crystal technology*. When we build real life/real world electronics based projects, we need amedium/device to display output values and messages. Liquid Crystal Displays comes in differentsize specifications. Out of all available LCD modules in market, the most commonly used one is 16×2LCD Module which can display 32 ASCII characters in 2 lines (16 characters in 1 line).
 
 ## Behavioral Diagram
-![Behavioral_lpg](https://user-images.githubusercontent.com/98883965/155871930-e664a5d7-3683-4285-bc99-69ada6cdc771.jpg)
+![Behavioral_lpg (1)](https://user-images.githubusercontent.com/98883965/155872114-f225e00f-420e-4e88-b984-ccfaeaa5a04b.jpg)
+
 
 
 
