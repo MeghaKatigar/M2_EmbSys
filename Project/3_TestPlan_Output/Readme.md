@@ -1,4 +1,5 @@
-# High Level Description
+# Test Plan
+## High Level Description
 
 | Test ID | Title | Input Value | Expected O/P | Actual O/P| Result |
 | ---|     ---      | --- | --- | --- | ---|
@@ -8,7 +9,7 @@
 |HLR_1.4| | | | | |
 
 
-# Low Level Description 
+## Low Level Description 
 
 | Test ID | Description | Input Value | Expected O/P | Actual O/P| Result |
 |---|---|---|---|---|---|
