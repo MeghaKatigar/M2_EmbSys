@@ -29,5 +29,5 @@
 - **How** : By placing this gas leakage monitoring system in the room where it can easily detect the gas/ smoke, the accident can be prevented. Which Also alerts the neighbors by the speaker/Buzzer.
 
 # SWOT Analysis 
-
+![SWOT_Analysis1](https://user-images.githubusercontent.com/98883965/156789462-3053403e-6592-4c19-909c-93f0f2e7650b.JPG)
 
