@@ -1,4 +1,4 @@
-# LPG Gas Leakage Monitoring System
+# LP Gas Leakage Monitoring System
 # Table of Contents 
 - Abstract 
 - Description 
