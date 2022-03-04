@@ -10,5 +10,9 @@
 
 |Title| Description |
 |---|---|
-|Design|Block Diagram and Flow Chart|
+|0_Requirements|High and Low Level requirements, 4W's and 1h and SWOT Analysis|
+|1_Implementation | Schematic diagram and Code|
+|2_Design|Block Diagram, Behavioral diagram and Flow Chart|
+|3_TestPlan_Output| Results|
+|4_Report| Project document |
 |Readme.md| Abstarct, description, High-Low Level Requirements, Block Diagram, Flow Charts, Application and Future scope|
