@@ -13,7 +13,7 @@
 |0_Requirements|High and Low Level requirements, 4W's and 1h and SWOT Analysis|
 |1_Implementation | Schematic diagram and Code|
 |2_Design|Block Diagram, Behavioral diagram and Flow Chart|
-|3_TestPlan_Output| Results|
+|3_TestPlan_Output| Test plan, Output files and Video|
 |4_Report| Project document |
 |5_Other| References |
 |Readme.md| Abstarct, description, High-Low Level Requirements, Block Diagram, Flow Charts, Application and Future scope|
