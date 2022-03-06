@@ -1,7 +1,7 @@
 # Badges
-|Codacy Security Scan| Code Quality | CodeQL|
+|Codacy Security Scan| Code Quality | CodeQL|C/C++ CI|
 |---|---|---|
-|[![Codacy Security Scan](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codacy.yml/badge.svg)](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codacy.yml)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cd8f5bfc26d94b229d8457ce61fbc25d)](https://www.codacy.com/gh/MeghaKatigar/M2_EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MeghaKatigar/M2_EmbSys&amp;utm_campaign=Badge_Grade) |[![CodeQL](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codeql-analysis-1.yml/badge.svg)](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codeql-analysis-1.yml)|
+|[![Codacy Security Scan](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codacy.yml/badge.svg)](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codacy.yml)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cd8f5bfc26d94b229d8457ce61fbc25d)](https://www.codacy.com/gh/MeghaKatigar/M2_EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MeghaKatigar/M2_EmbSys&amp;utm_campaign=Badge_Grade) |[![CodeQL](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codeql-analysis-1.yml/badge.svg)](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codeql-analysis-1.yml)|[![C/C++ CI](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/c-cpp-1.yml/badge.svg)](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/c-cpp-1.yml)|
 
 # LP Gas Leakage Monitoring System
 # Table of Contents 
