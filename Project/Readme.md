@@ -1,3 +1,8 @@
+|Codacy Security Scan| |
+|---|---|
+|[![Codacy Security Scan](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codacy.yml/badge.svg)](https://github.com/MeghaKatigar/M2_EmbSys/actions/workflows/codacy.yml)| |
+
+
 # LP Gas Leakage Monitoring System
 # Table of Contents 
 - Abstract 
