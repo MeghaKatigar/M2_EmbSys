@@ -1,19 +1,24 @@
 # Test Plan
-## High Level Description
+## High Level Test Plan Description
 
-| Test ID | Title | Input Value | Expected O/P | Actual O/P| Status |
+
+| Test ID | Title | Input Value | Expected O/P | Actual O/P| Status (:heavy_check_mark: PASS/ :x: FAIL) |
 | ---|     ---      | --- | --- | --- | ---|
-| HLR_1.1 | Gas Sensing   | | | |Implemented |
-|HLR_1.2 | Temperature measurement | | | | Implemented |
-|HLR_1.3| Emergency Exit | | | |Implemented |
-|HLR_1.4| Water Pumping | | | | Implemented |
-|HLR_1.5|Emergency Alert Sound |||| Implemented|
+| 01 | Gas Sensing   | Detection of smoke | Shall turn ON the buzzer | Shall turn ON the buzzer |:heavy_check_mark: |
+|02 | Temperature measurement | 50* C  | Shall turn on the Servo & DC motor| Shall turn ON the Servo & Dc motor | :heavy_check_mark: |
+|03| Main Switch | OFF(0) | Shall display "NO FIRE ALL SAFE" on LCD| Shall display "NO FIRE ALL SAFE" on LCD| :heavy_check_mark:  |
+|04| Main Switch | ON(1) | Shall display "Sending MSG" on LCD | Shall display "NO FIRE ALL SAFE" on LCD| :heavy_check_mark:  |
 
 
 
-## Low Level Description 
+## Low Level Test plan Description 
 
-| Test ID | Description | Input Value | Expected O/P | Actual O/P| Status |
+| Test ID | Title| Input Value | Expected O/P | Actual O/P| Status(:heavy_check_mark: PASS/ :x: FAIL) |
 |---|---|---|---|---|---|
-| LLR_1.1   |  | | | | |
-|LLR_1.2 | | | | | |
+| 01   |  Displaying the message on LCD| NO FIRE ALL SAFE| NO FIRE ALL SAFE| NO FIRE ALL SAFE| :heavy_check_mark: |
+|02| Servo Motor| 0V | Motor is OFF | Motor is OFF | :heavy_check_mark:|
+|03| Servo Motor| 5V | Motor is ON | Motor is ON | :heavy_check_mark:|
+|04| DC Motor | 5v | Anticlockwise rotation | Anticlockwise Rotation  | :heavy_check_mark:|
+
+# Output
+## When No smoke is detected 
