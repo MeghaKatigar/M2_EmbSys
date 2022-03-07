@@ -56,7 +56,7 @@ The significance of a fire alarm system in maintaining and monitoring the safety
 |ID| Title |Description | 
 |---|---|---
 |LLR_1.1|Gas Leakage |Home appliances that generates heat or gas such as stove, water heater.| 
-|LLR_3.1|Fire Detetion| This can be caused by gas leakage in room. |
+|LLR_3.1|Fire Detection| This can be caused by gas leakage in room. |
 
 
 
