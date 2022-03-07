@@ -22,3 +22,9 @@
 
 # Output
 ## When No smoke is detected 
+![Output_No_Fire_All_Safe](https://user-images.githubusercontent.com/98883965/157015662-798a834b-61b0-442e-b7af-b3a6ee908dc6.JPG)
+
+
+## When the smoke is detected and Temperatures exceeds limit value
+![Output_Sending_SMS](https://user-images.githubusercontent.com/98883965/157015681-ec4e4c4d-d723-4774-866f-f9fe977d32b9.JPG)
+
