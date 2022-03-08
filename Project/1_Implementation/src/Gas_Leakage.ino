@@ -1,5 +1,6 @@
 
-// LP Gas Leakage Monitor
+// LP Gas Leakage Monitoring System
+
 #include "Gas_Leakage.h"
 void setup()
 {
@@ -17,16 +18,14 @@ void setup()
     pinMode(LED_YELLOW, OUTPUT); //Set control pins to be outputs
     digitalWrite(LED_RED, LOW);
     digitalWrite(LED_YELLOW, LOW); //set both motors off for start-upmy
-    Serial.begin(9600);
-    Serial.begin(9600); //Start the serial connection with the computer
 }
 void loop()
 {
     int tempC_1 = analogRead(SensorPin1);
     int SmkC_1 = analogRead(SensorPin2);
-    tempC_1 = analogRead(SensorPin1);           //read the value from the Temperature sensor
+    tempC_1 = analogRead(SensorPin1);           //reading the value from the LM35 sensor (Temperature Sensor)
     tempC_1 = (5.0 * tempC_1 * 100.0) / 1024.0; //convert the analog data to temperature
-    smkC_1 = analogRead(SensorPin2);            //read the value from the Smoke Sensor sensor
+    smkC_1 = analogRead(SensorPin2);            //reading the value from the MQ 2 sensor (Smoke Sensor)
     smkC_1 = (5.0 * smkC_1 * 100.0) / 1024.0;   //convert the analog data to temperature
     delay(50);
     bool newData = false;
@@ -37,7 +36,7 @@ void loop()
         while (Serial.available())
         {
             char c = Serial.read();
-            if (GPS.encode(c))
+            if (gps.encode(c))
                 newData = true;
         }
     }
@@ -68,16 +67,16 @@ void loop()
         delay(5);
         float flat, flon;
         unsigned long age;
-        GPS.f_get_position(&flat, &flon, &age);
+        gps.f_get_position(&flat, &flon, &age);
         Serial.print("AT+CMGF=1\r");
         delay(100);
-        Serial.print("AT+CMGS=\"+251928583635\"\r");
+        Serial.print("AT+CMGS=\"<Mobile Number>\"\r");
         Serial.print("FIRE OCCURED!\r");
         delay(100);
-        Serial.print("AT+CMGS=\"+251928583636\"\r");
+        Serial.print("AT+CMGS=\"<Mobile Number>\"\r");
         Serial.print("FIRE OCCURED!\r");
         delay(100);
-        Serial.print("AT+CMGS=\"+251928583735\"\r");
+        Serial.print("AT+CMGS=\"<Mobile Number>\"\r");
         Serial.print("FIRE OCCURED! in\r");
         delay(200);
         Serial.print("Latitude = ");
